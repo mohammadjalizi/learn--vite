@@ -13,6 +13,12 @@ console.log(result)
 <div> img  </div>
 
 <h1>mohammad po</h1>
+<button onClick={()=>{
+
+Setadd("-")
+
+
+}} > stop </button>
 
 <button onClick={()=>{
 
