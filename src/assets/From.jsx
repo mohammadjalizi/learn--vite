@@ -1,18 +1,21 @@
-import React from 'react'
+import { useState } from "react"
+
 
 const From = () => {
+
+const[Email,Setemail]=useState("")
   return (
     <div>
         
-<input type='text'  placeholder='text' onChange={()=>{
+<input type='text'  placeholder='text' onChange={(event)=>{
 
-console.log("email")
+Setemail(event.target.value)
 
 
 }} />
 
 <button onClick={()=>{
-console.log("click")
+console.log(Email)
 
 }}>login</button>  
 
