@@ -15,7 +15,7 @@ console.log(result)
 <h1>mohammad po</h1>
 <button onClick={()=>{
 
-Setadd("-")
+Setadd("0")
 
 
 }} > stop </button>
